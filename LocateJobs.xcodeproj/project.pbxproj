@@ -22,7 +22,6 @@
 		039A2F1A1936393100F56C7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039A2F181936393100F56C7E /* InfoPlist.strings */; };
 		039A2F1C1936393100F56C7E /* LocateJobsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039A2F1B1936393100F56C7E /* LocateJobsTests.m */; };
 		039A2F261936394300F56C7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039A2F251936394300F56C7E /* MapKit.framework */; };
-		039A2F301936540800F56C7E /* myAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 039A2F2F1936540800F56C7E /* myAnnotation.m */; };
 		039A2F3419365A6E00F56C7E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 039A2F3119365A6E00F56C7E /* Default.png */; };
 		039A2F3519365A6E00F56C7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 039A2F3219365A6E00F56C7E /* Default@2x.png */; };
 		039A2F3619365A6E00F56C7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 039A2F3319365A6E00F56C7E /* Default-568h@2x.png */; };
@@ -59,8 +58,6 @@
 		039A2F191936393100F56C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039A2F1B1936393100F56C7E /* LocateJobsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocateJobsTests.m; sourceTree = "<group>"; };
 		039A2F251936394300F56C7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		039A2F2E1936540800F56C7E /* myAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAnnotation.h; sourceTree = "<group>"; };
-		039A2F2F1936540800F56C7E /* myAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAnnotation.m; sourceTree = "<group>"; };
 		039A2F3119365A6E00F56C7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../../../Downloads/MapView 1/MapView/Default.png"; sourceTree = "<group>"; };
 		039A2F3219365A6E00F56C7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../Downloads/MapView 1/MapView/Default@2x.png"; sourceTree = "<group>"; };
 		039A2F3319365A6E00F56C7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../../Downloads/MapView 1/MapView/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 				039A2F021936393100F56C7E /* Main.storyboard */,
 				039A2F051936393100F56C7E /* ViewController.h */,
 				039A2F061936393100F56C7E /* ViewController.m */,
-				039A2F2E1936540800F56C7E /* myAnnotation.h */,
-				039A2F2F1936540800F56C7E /* myAnnotation.m */,
 				039A2F081936393100F56C7E /* Images.xcassets */,
 				039A2EF71936393100F56C7E /* Supporting Files */,
 			);
@@ -279,7 +274,6 @@
 			files = (
 				039A2F071936393100F56C7E /* ViewController.m in Sources */,
 				039A2F011936393100F56C7E /* AppDelegate.m in Sources */,
-				039A2F301936540800F56C7E /* myAnnotation.m in Sources */,
 				039A2EFD1936393100F56C7E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +481,7 @@
 				039A2F211936393100F56C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039A2F221936393100F56C7E /* Build configuration list for PBXNativeTarget "LocateJobsTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +490,7 @@
 				039A2F241936393100F56C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

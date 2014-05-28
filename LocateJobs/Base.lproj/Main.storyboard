@@ -79,7 +79,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kSq-kh-oNQ">
-                                <rect key="frame" x="0.0" y="-5" width="320" height="428"/>
+                                <rect key="frame" x="0.0" y="-12" width="320" height="428"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Of-oN-S8X">
@@ -172,8 +172,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="11h-ht-Ego"/>
+        <segue reference="OkH-kj-Vcj"/>
+        <segue reference="qqc-FL-Lqz"/>
         <segue reference="oKG-6a-Srz"/>
-        <segue reference="H4q-YI-2px"/>
     </inferredMetricsTieBreakers>
 </document>
